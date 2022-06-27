@@ -1,0 +1,5323 @@
+{
+	"info": {
+		"_postman_id": "5c473c49-6d32-4e28-b40a-e0559bef6390",
+		"name": "MikrofUrlLinkStatus(MIS)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "home",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/home",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AIS",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AIS",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AIS"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/logout",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employess",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/employess",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"employess"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_permission",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/create_permission",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"create_permission"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_role",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/create_role",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"create_role"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "general_configuration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/general_configuration",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"general_configuration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "software_configuration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/software_configuration",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"software_configuration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "holiday_configuration_view",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/holiday_configuration_view",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"holiday_configuration_view"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "division",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/division",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"division"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "thana",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/thana",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"thana"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "union_wards",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/union_wards",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"union_wards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "village_blocks",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/village_blocks",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"village_blocks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "working_area",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/working_area",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"working_area"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_information_create",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_information_create",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_information_create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_saving_migration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/loan_saving_migration",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"loan_saving_migration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_saving_remigration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/loan_saving_remigration",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"loan_saving_remigration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "software_overview_configuration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/software_overview_configuration",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"software_overview_configuration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "error_log",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/error_log/have_error",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"error_log",
+						"have_error"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activity_log",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/activity_log",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"activity_log"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Branch_opening_loans",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Branch_opening_loans",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Branch_opening_loans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Branch_opening_members",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Branch_opening_members",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Branch_opening_members"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "branch_opening_llp",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/branch_opening_llp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"branch_opening_llp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "degree",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/degree",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"degree"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employess",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/employess",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"employess"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employees_department",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/employees_department",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"employees_department"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employees_designation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/employees_designation",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"employees_designation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employees_responsibility",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/employees_responsibility",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"employees_responsibility"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employee_promotion",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/employee_promotion",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"employee_promotion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employee_resign_termination",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/employee_resign_termination",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"employee_resign_termination"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "samity",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/samity",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"samity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "samity_field_office_change",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/samity_field_office_change",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"samity_field_office_change"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "samity_field_office_batch_change",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/samity_field_office_batch_change",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"samity_field_office_batch_change"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "samity_day_change",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/samity_day_change",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"samity_day_change"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "close_samity",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/close_samity",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"close_samity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_information",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_information",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_information"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_socio_economic_status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_socio_economic_status",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_socio_economic_status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_guardian_info",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_guardian_info",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_guardian_info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_information_by_nid",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_information_by_nid",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_information_by_nid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_samity_transfer",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_samity_transfer",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_samity_transfer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "primary_product_transfer",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/primary_product_transfer",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"primary_product_transfer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_closing",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_closing",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_closing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_attendance",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_attendance",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_attendance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "attendance_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/attendance_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"attendance_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_passbok_sale",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/member_passbok_sale",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"member_passbok_sale"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saving",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Saving",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Saving"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saving_Deposit",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Saving_Deposit",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Saving_Deposit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saving_withdraw",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Saving_withdraw",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Saving_withdraw"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saving_closing",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Saving_closing",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Saving_closing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saving_status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Saving_status",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Saving_status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saving_interest",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Saving_interest",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Saving_interest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saving_adjustment",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Saving_adjustment",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Saving_adjustment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_loan_accounts",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/add_loan_accounts",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"add_loan_accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "regular_loan_transaction",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/regular_loan_transaction",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"regular_loan_transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "death_member_information",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/death_member_information",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"death_member_information"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reschedule_configuration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/Reschedule_configuration",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"Reschedule_configuration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "overdue_loan_collection",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/overdue_loan_collection",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"overdue_loan_collection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_rebates",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/loan_rebates",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"loan_rebates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_loan_for_detah_member",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/add_loan_for_detah_member",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"add_loan_for_detah_member"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_adjustment",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/loan_adjustment",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"loan_adjustment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_writeof_eligible",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/loan_writeof_eligible",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"loan_writeof_eligible"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_write_off",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/loan_write_off",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"loan_write_off"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_write_off_collection",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/loan_write_off_collection",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"loan_write_off_collection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/loan_status",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"loan_status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auto_process",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/auto_process",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"auto_process"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transaction_authorization",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/transaction_authorization",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"transaction_authorization"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transaction_unauthorization",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/transaction_unauthorization",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"transaction_unauthorization"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "day_end_process",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/day_end_process",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"day_end_process"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "month_end_process",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/month_end_process",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"month_end_process"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "passbook",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/passbook",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"passbook"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MonthlyTarget",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/s/MonthlyTarget",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"s",
+						"MonthlyTarget"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PKSF_POMIS_1_REPORT",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/PKSF_POMIS_1_REPORT",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"PKSF_POMIS_1_REPORT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REPORT_PKSF_POMIS_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/REPORT_PKSF_POMIS_2",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"REPORT_PKSF_POMIS_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PKSF_POMIS_2A_REPORT",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/PKSF_POMIS_2A_REPORT",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"PKSF_POMIS_2A_REPORT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REPORT_PKSF_POMIS_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/REPORT_PKSF_POMIS_3",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"REPORT_PKSF_POMIS_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mra_reports1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mra_reports1",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mra_reports1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mra_reports2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mra_reports2",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mra_reports2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MRAMFI03Reports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MRAMFI03Reports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MRAMFI03Reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MRAMFI03BReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MRAMFI03BReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MRAMFI03BReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MRAMFI04AReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MRAMFI04AReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MRAMFI04AReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MRAMFI04BReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MRAMFI04BReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MRAMFI04BReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MRAMIS05Reports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MRAMIS05Reports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MRAMIS05Reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MRAMIS06Reports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MRAMIS06Reports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MRAMIS06Reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MRACDB02AReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MRACDB02AReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MRACDB02AReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MRACDB03AReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MRACDB03AReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MRACDB03AReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mra_reports11",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mra_reports11",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mra_reports11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mra_reports12",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mra_reports12",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mra_reports12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mra_reports13",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mra_reports13",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mra_reports13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mra_reports14",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mra_reports14",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mra_reports14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mra_reports15",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mra_reports15",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mra_reports15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mra_reports16",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mra_reports16",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mra_reports16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "branch_wise_savings_info",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/branch_wise_savings_info",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"branch_wise_savings_info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Component_Wise_Daily_Collection",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Component_Wise_Daily_Collection",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Component_Wise_Daily_Collection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Component_Wise_Daily_Collection_member_wise_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Component_Wise_Daily_Collection_member_wise_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Component_Wise_Daily_Collection_member_wise_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "branch_managerReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/branch_managerReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"branch_managerReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "weekly_monthly_65",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/weekly_monthly_65",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"weekly_monthly_65"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fildOffcer_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/fildOffcer_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"fildOffcer_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Component_Wise_Daily_Collection_310",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Component_Wise_Daily_Collection_310",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Component_Wise_Daily_Collection_310"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mLoanSaving_collectionSheet",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mLoanSaving_collectionSheet",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mLoanSaving_collectionSheet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "monthWise_loanReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/monthWise_loanReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"monthWise_loanReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admission_register_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Admission_register_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Admission_register_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Savings_refund_register_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Savings_refund_register_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Savings_refund_register_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoanDisbursementRegister",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/LoanDisbursementRegister",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"LoanDisbursementRegister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FullyPaidLoanRegister",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/FullyPaidLoanRegister",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"FullyPaidLoanRegister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MemberCancellationRegister",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MemberCancellationRegister",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MemberCancellationRegister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mwslas_ledger",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/mwslas_ledger",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"mwslas_ledger"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InactiveMemberRegisterReports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/InactiveMemberRegisterReports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"InactiveMemberRegisterReports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Savings_Interest_Information",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Savings_Interest_Information",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Savings_Interest_Information"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DueRegisterReports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/FullyPaidLoanRegister",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"FullyPaidLoanRegister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "written_off_register_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/written_off_register_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"written_off_register_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "woc_register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/woc_register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"woc_register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DualLoaneeRegister",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/DualLoaneeRegister",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"DualLoaneeRegister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_waver_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/loan_waver_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"loan_waver_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RebateRegister",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/RebateRegister",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"RebateRegister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DueCollectionRegisterReports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/DueCollectionRegisterReports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"DueCollectionRegisterReports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loan_adjustment_register_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/loan_adjustment_register_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"loan_adjustment_register_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transfer_register_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/transfer_register_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"transfer_register_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "holiday_due_register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/holiday_due_register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"holiday_due_register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoanDirsbursementAndRecovery",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/LoanDirsbursementAndRecovery",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"LoanDirsbursementAndRecovery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FDRRegisterReportReports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/FDRRegisterReportReports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"FDRRegisterReportReports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SamityWiseMemberRegisterReports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/SamityWiseMemberRegisterReports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"SamityWiseMemberRegisterReports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SavingsCollectionRegisterReports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/SavingsCollectionRegisterReports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"SavingsCollectionRegisterReports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "non_savers_registers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/non_savers_registers",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"non_savers_registers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new_due_register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/new_due_register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"new_due_register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "balanceing_register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/balanceing_register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"balanceing_register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ratio_analysis_statment_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/ratio_analysis_statment_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"ratio_analysis_statment_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "schedule_defaulter_register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/schedule_defaulter_register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"schedule_defaulter_register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "branch_wise_samity_list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/branch_wise_samity_list",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"branch_wise_samity_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "samity_wise_member_reports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/samity_wise_member_reports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"samity_wise_member_reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TodayLoanDisbursment",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/TodayLoanDisbursment",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"TodayLoanDisbursment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_migration_balance",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/member_migration_balance",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"member_migration_balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Advance_Due_Register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Advance_Due_Register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Advance_Due_Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pbb_register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/pbb_register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"pbb_register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fowpb_register_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/fowpb_register_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"fowpb_register_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "branchwise_passbook_balance",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/branchwise_passbook_balance",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"branchwise_passbook_balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dpsRegister_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/dpsRegister_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"dpsRegister_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monthly_purpose_wise_loan_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Monthly_purpose_wise_loan_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Monthly_purpose_wise_loan_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monthly_progress_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Monthly_progress_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Monthly_progress_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MonthlyTargetsAndAchievement",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MonthlyTargetsAndAchievement",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MonthlyTargetsAndAchievement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MISAndAISCrossCheck",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MISAndAISCrossCheck",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MISAndAISCrossCheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Periodical_progress_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Periodical_progress_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Periodical_progress_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "menu2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/home#menu2",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"home"
+					],
+					"hash": "menu2"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "menu3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/home#menu3",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"home"
+					],
+					"hash": "menu3"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PKSF_POMIS_1_REPORTDEVELOPING",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/PKSF_POMIS_1_REPORTDEVELOPING",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"PKSF_POMIS_1_REPORTDEVELOPING"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REPORT_PKSF_POMIS_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/REPORT_PKSF_POMIS_2",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"REPORT_PKSF_POMIS_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REPORT_PKSF_POMIS_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/REPORT_PKSF_POMIS_3",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"REPORT_PKSF_POMIS_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PKSF_POMIS_2A_REPORT",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/PKSF_POMIS_2A_REPORT",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"PKSF_POMIS_2A_REPORT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admission_register_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Admission_register_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Admission_register_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Savings_refund_register_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Savings_refund_register_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Savings_refund_register_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FullyPaidLoanRegister",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/FullyPaidLoanRegister",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"FullyPaidLoanRegister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MemberCancellationRegister",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MemberCancellationRegister",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MemberCancellationRegister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "branch_wise_samity_list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/branch_wise_samity_list",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"branch_wise_samity_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "samity_wise_member_reports",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/samity_wise_member_reports",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"samity_wise_member_reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Advance_Due_Register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Advance_Due_Register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Advance_Due_Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member_migration_balance",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/member_migration_balance",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"member_migration_balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Component_Wise_Daily_Collection",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Component_Wise_Daily_Collection",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Component_Wise_Daily_Collection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "weekly_monthly_65",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/weekly_monthly_65",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"weekly_monthly_65"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MemberWiseCIMReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/MemberWiseCIMReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"MemberWiseCIMReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TodayLoanDisbursment",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/TodayLoanDisbursment",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"TodayLoanDisbursment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

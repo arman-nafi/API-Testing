@@ -1,0 +1,999 @@
+{
+	"info": {
+		"_postman_id": "6ea613ac-739d-4301-8a8e-c50b468e5c78",
+		"name": "MikrofUrlLinkStatus(AIS)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AIS",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AIS",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AIS"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountingHead",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AccountingHead",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AccountingHead"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OpeningBalances",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/OpeningBalances",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"OpeningBalances"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Budget",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Budget",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Budget"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VoucherList",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/VoucherList",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"VoucherList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ReceiptVoucher",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/ReceiptVoucher",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"ReceiptVoucher"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ContraVoucher",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/ContraVoucher",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"ContraVoucher"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PaymentVoucher",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/PaymentVoucher",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"PaymentVoucher"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JournalVoucher",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/JournalVoucher",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"JournalVoucher"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fund_transfer",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Fund_transfer",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Fund_transfer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Auto_Voucher_Receipt",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Auto_Voucher_Receipt",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Auto_Voucher_Receipt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AutoVoucherPayment",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AutoVoucherPayment",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AutoVoucherPayment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Auto_Voucher_Journal",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/Auto_Voucher_Journal",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"Auto_Voucher_Journal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ais_day_end_process",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/ais_day_end_process",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"ais_day_end_process"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "acc_ledgers_report_view",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/acc_ledgers_report_view",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"acc_ledgers_report_view"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountsOpeningBalanceReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AccountsOpeningBalanceReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AccountsOpeningBalanceReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountsDailyTransactionReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AccountsDailyTransactionReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AccountsDailyTransactionReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountsLedgerReportReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AccountsLedgerReportReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AccountsLedgerReportReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountsCsahBookReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AccountsCsahBookReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AccountsCsahBookReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountsBankBookReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AccountsBankBookReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AccountsBankBookReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountsCsahBankBookReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AccountsCsahBankBookReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AccountsCsahBankBookReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "trial_balance_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/trial_balance_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"trial_balance_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "receipt_payment_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/receipt_payment_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"receipt_payment_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "income_sheet_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/income_sheet_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"income_sheet_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "balance_sheet_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/balance_sheet_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"balance_sheet_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cash_flow_statement",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/cash_flow_statement",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"cash_flow_statement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AccountsFundTransferReport",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/AccountsFundTransferReport",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"AccountsFundTransferReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "budget_allocation_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/budget_allocation_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"budget_allocation_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "budget_variance_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/budget_variance_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"budget_variance_report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "branch_wise_ledger_report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mikrof.com/branch_wise_ledger_report",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mikrof",
+						"com"
+					],
+					"path": [
+						"branch_wise_ledger_report"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
